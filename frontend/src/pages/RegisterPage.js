@@ -50,7 +50,7 @@ const RegisterPage = () => {
         isClosable: true,
       });
 
-      navigate("/login");
+      navigate("/");
     } catch (err) {
       toast({
         title: "Registration failed",
